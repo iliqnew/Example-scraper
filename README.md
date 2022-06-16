@@ -7,5 +7,5 @@ python -m venv venv\
 pip install requirements.txt
 
 # crawl
-cd .\mango_shop\\
+cd .\mango_shop\\\
 scrapy crawl midi_satin_skirt -o product.json
