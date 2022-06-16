@@ -16,7 +16,7 @@ class MidiSatinSkirtSpider(scrapy.Spider):
         self.driver = webdriver.Firefox()
         self.driver.get(response.request.url)
         self.driver.find_element_by_id('onetrust-accept-btn-handler').click()
-        time.sleep(1)
+        time.sleep(1.5)
         self.driver.find_element_by_class_name('icon.closeModal.icon__close.desktop.confirmacionPais').click()
         
         name = self.driver.find_element_by_class_name('product-name').text
