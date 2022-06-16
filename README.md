@@ -4,7 +4,7 @@ A scrapy/selenium scraper of https://shop.mango.com/gb/women/skirts-midi/midi-sa
 # build
 python -m venv venv\
 .\venv\Scripts\activate\
-pip install requirements.txt
+pip install requirements.txt\
 cd .\mango_shop\\\
 
 # crawl
