@@ -1,7 +1,6 @@
 import scrapy
 from selenium import webdriver
 import time
-import json
 
 class MidiSatinSkirtSpider(scrapy.Spider):
     name = 'midi_satin_skirt'
